@@ -3655,3 +3655,12 @@ input, select, textarea {
     left: 0;
     top: 0
 }
+
+/* 图片占位修复 */
+.content_p{
+			width: 100%;
+		}
+        .content_p img{
+  width:auto;
+  max-width:100%;
+}
